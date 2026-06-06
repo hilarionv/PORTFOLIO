@@ -734,4 +734,25 @@ font-size: 13px;
             flex-direction: column-reverse;
         }
     }
+
+
+    @media (max-width: 480px) {
+
+        .top {
+            padding: 6px 10px;
+        }
+    
+        .top a {
+            font-size: 20px;
+        }
+    
+        .top p {
+            font-size: 12px;
+        }
+    
+        .bara img {
+            height: 35px;
+        }
+    }
+    
         
