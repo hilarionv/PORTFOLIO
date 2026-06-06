@@ -742,7 +742,21 @@ font-size: 13px;
             flex-direction: column-reverse;
         }
     }
-
+    .bara-mobile {
+        display: none;
+        color: blue;
+        font-size: 11px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        margin-top: -10px;
+    }
+    
+    @media (max-width: 768px) {
+        .bara-mobile {
+            display: block;
+        }
+    }
+    
 
     @media (max-width: 480px) {
 
@@ -761,6 +775,9 @@ font-size: 13px;
     
         .bara img {
             height: 35px;
+        }
+        .bara-mobile {
+            display: block;
         }
     }
     
