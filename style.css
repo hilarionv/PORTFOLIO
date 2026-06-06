@@ -43,6 +43,10 @@ body {
 
 }
 
+.logo a {
+    font-size: 30px;
+}
+
 .top {
     display: flex;
     justify-content: flex-start;
@@ -744,9 +748,10 @@ font-size: 13px;
 
         .top {
             padding: 6px 10px;
+            gap: 20px;
         }
     
-        .top a {
+        .logo a {
             font-size: 20px;
         }
     
