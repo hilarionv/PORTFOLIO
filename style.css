@@ -896,10 +896,11 @@ font-size: 13px;
     }
     @media (max-width: 480px) {
         .bara-section {
+            flex-direction: column;
             margin-left: 0;
             margin-right: 0;
             border-radius: 0;
-            padding: 30px 20px;
+            overflow: hidden;
         }
     
         .bara-images {
@@ -908,7 +909,8 @@ font-size: 13px;
         }
     
         .bara-images img {
-            height: 213px;
+            height: 230px;
+            width: 100%;
         }
     
         .bara-info {
