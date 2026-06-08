@@ -847,6 +847,21 @@ font-size: 13px;
     .bara-section .voir-site {
         color: blue;
     }
+
+    .bara-images {
+        flex: 1.5;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+    
+    .bara-images img {
+        width: 100%;
+        height: 200px;
+        border-radius: 8px;
+        object-fit: cover;
+    }
+    
     
     @media (max-width: 768px) {
         .bara-section {
@@ -872,18 +887,28 @@ font-size: 13px;
     }
     
     @media (max-width: 480px) {
+
+    
+        .bara-logo-abs {
+            height: 40px;
+            top: 0;
+        }
+    }
+    @media (max-width: 480px) {
         .bara-section {
+            margin-left: 0;
+            margin-right: 0;
+            border-radius: 0;
             padding: 30px 20px;
-            gap: 20px;
         }
     
-        .bara-images img:first-child {
-            display: none;
+        .bara-images {
+            grid-template-columns: 1fr 1fr;
+            width: 100%;
         }
     
         .bara-images img {
-            width: 100%;
-            height: 380px;
+            height: 213px;
         }
     
         .bara-info {
@@ -891,13 +916,8 @@ font-size: 13px;
         }
     
         .bara-info h2 {
-            font-size: 24px;
-            margin-top: 50px;
-        }
-    
-        .bara-logo-abs {
-            height: 40px;
-            top: 0;
+            font-size: 22px;
+            margin-top: 40px;
         }
     }
     
